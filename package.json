@@ -1,0 +1,38 @@
+{
+  "name": "peliculas-api",
+  "version": "0.0.0",
+  "private": false,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "mocha ./test"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.8.1",
+    "serve-favicon": "~2.4.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^3.5.3",
+    "supertest": "^3.0.0",
+    "supertest-as-promised": "^4.0.2"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/veryneri/peliculas-api/issues",
+    "email": "edson.neri@correo.uia.mx"
+  },
+  "author": {
+    "name": "Edson Neri",
+    "email": "edson.neri@correo.uia.mx"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/veryneri/peliculas-api.git"
+  }
+}
